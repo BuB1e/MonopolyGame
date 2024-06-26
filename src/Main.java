@@ -23,7 +23,7 @@ public class Main {
 //        players.add(player7);
 //        players.add(player8);
 //        players.add(player9);
-        MGame monopolyGame = new MGame(players, 50); // 2nd parameter = max round
+        MGame monopolyGame = new MGame(players, 1000); // 2nd parameter = max round
         monopolyGame.playGame();
     }
 }

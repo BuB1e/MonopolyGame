@@ -12,10 +12,10 @@ public class MGame {
     public MGame(ArrayList<Player> players, int n) {
         if(players.size() < 2) {
             System.out.println("Not enough player.");
-            System.exit(0);
+            System.exit(1);
         } else if (players.size() > 8) {
             System.out.println("Too many players. Max player = 8.");
-            System.exit(0);
+            System.exit(1);
         }
         roundCnt = 1;
         dice = new ArrayList<>();
