@@ -1,4 +1,4 @@
-//6510451018
+// Harit Sombatsiri 6510451018
 
 public class Piece {
     private Square location;
